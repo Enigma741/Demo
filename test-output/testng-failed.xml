@@ -7,12 +7,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Ahs.HomePage2">
-        <methods>
-          <include name="LoginPageNavigation" invocation-numbers="0"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Ahs.HomePage2 -->
       <class name="Ahs.HomePage1">
         <methods>
           <include name="LoginPageNavigation" invocation-numbers="0"/>

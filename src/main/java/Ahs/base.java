@@ -52,12 +52,15 @@ public class base {
 
 	}
 	
-	public static void getScreenshot(WebDriver driver, String s) throws IOException
-	{
-	File scrfile=	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(scrfile,new File(System.getProperty("user.dir")+"\\"+s+ ".png"));
 	
+
+	public static void getScreenshot(String name) throws IOException {
+		File scrfile=	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrfile,new File(System.getProperty("user.dir")+"\\"+name+ ".png"));
+		
 	}
+
+	
 	
 	
  

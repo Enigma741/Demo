@@ -10,8 +10,8 @@
   <test thread-count="5" name="Test">
     <classes>
       
+      <class name="Ahs.HomePage"/>
       <class name="Ahs.HomePage1"/>
-      <class name="Ahs.HomePage2"/>
     </classes>
   </test> <!-- Test -->
   
